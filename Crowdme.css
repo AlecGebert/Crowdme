@@ -1,0 +1,510 @@
+body {
+	background: #515151;
+}
+#hover {
+	width: 1300px;
+	margin: auto;
+	background: #ffffff;
+}
+#header {
+	width: 1300px;
+	height: 85px;
+	margin: auto;
+	/*border: 1px solid black;*/
+	
+}
+#all {
+	width: 1030px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+#logo {
+	width: 40px;
+	margin-top: 25px;
+	margin-left: 0px;
+}
+#image {
+	width: 35px;
+	height: 35px;
+}
+#title {
+	width: 160px;
+	margin-left: -100px;
+	margin-top: 5px;
+}
+#crow {
+	font-size: 31px;
+    color: #6d6e70;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+#menu {
+	width: 525px;
+	margin-top: 20px;
+}
+ul {
+	list-style: none;
+    padding-left: 0; 
+}
+a {
+	text-decoration: none;
+	color: #666666;
+
+}
+li {
+	float: left;
+	margin-right: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#login {
+	width: 105px;
+	height: 40px;
+	margin-top: 20px;
+	background: #69f75c;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center; 
+}
+#login:active {
+	border: none;
+	border-radius: 25px;
+}/*Конец хидера*/
+#banner {
+	width: 1300px;
+	height: 570px;
+	margin: auto;
+	background-image: url(https://cdn.pixabay.com/photo/2014/10/10/21/13/door-483928_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    clear: both;
+} 
+#cont {
+	width: 910px;
+	height: 250px;
+	margin: auto;
+	padding-top: 170px;
+}
+#intel {
+   font-size: 49px;
+   color: #ffffff;
+   font-weight: 600;
+   font-family: "Open Sans";
+   text-align: center;
+}
+#banan {
+   font-size: 30px;
+   color: #ffffff;
+   font-weight: 300;
+   font-family: "Open Sans";
+   text-align: center;
+}
+#member {
+	width: 255px;
+	height: 75px;
+	background: #69f75c;
+	cursor: pointer;
+	border-radius: 15px;
+	border: none;
+	font-size: 19px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-left: 320px;
+}/*Конец баннера*/
+#presentation {
+	width: 1300px;
+	height: 740px;
+	margin: auto;
+}
+#pic {
+	margin-top: 105px;
+	margin-left: 655px;
+}
+#picture {
+	width: 55px;
+	height: 55px;
+}
+#text {
+	width: 940px;
+	height: 310px;
+	margin: auto;
+}
+#work {
+	margin-top: 50px;
+    font-size: 31px;
+    line-height: 50px;
+    color: #515151;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 50px;
+}
+.lorem {
+    font-size: 20px;
+    line-height: 30px;
+    color: #515151;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	background: #515151;
+	border-radius: 20px;
+	float: left;
+	margin-right: 30px;
+}
+.circle:hover {
+	background: #69f75c;
+}
+.simple {
+	width: 270px;
+	height: 70px;
+	border-bottom: 0.3px solid #515151;
+}
+.simple:hover {
+	border-bottom: 0.3px solid #69f75c;
+	color: #69f75c;
+}
+#choice {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.number {
+	text-align: center;
+	color: #ffffff;
+	margin-top: 0px;
+}/*Конец презентацион*/
+#glasses {
+	width: 1300px;
+	height: 180px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+#glass {
+	width: 110px;
+	height: 110px;
+	margin-top: -40px;
+	margin-left: 110px;
+}
+#browse {
+	width: 670px;
+	height: 150px;
+}
+h2 {
+	color: #69f75c;
+	text-align: center;
+	margin-top: -70px;
+	font-size: 28px;
+}/*Конец глассес*/
+#wallet {
+	width: 100px;
+	height: 80px;
+	margin-left: 70px;
+}
+#sofa {
+	width: 140px;
+	height: 120px;
+	margin-left: 70px;
+	margin-top: -20px;
+}
+#find {
+	width: 1300px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+#properties {
+	width: 650px;
+	height: 180px;
+	background: #d2f1fa;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 120px;
+}
+#buyers {
+	width: 650px;
+    height: 180px;
+	background: #ddf5da;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 120px;
+}
+#txtleft {
+	width: 270px;
+	height: 220px;
+}
+#txtright {
+	width: 270px;
+	height: 220px;
+}
+.titlefind {
+	color: #515151;
+}
+#submit {
+	width: 185px;
+	height: 50px;
+	background: #69f75c;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+#become {
+	width: 185px;
+	height: 50px;
+	background: #638bdb;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 40px;
+}/*Конец файнд*/
+#words {
+	clear: both;
+	width: 1300px;
+	height: 200px;
+	margin: auto;
+}
+#breack {
+	font-size: 20px;
+    line-height: 30px;
+    color: #515151;
+    font-weight: 400;
+    font-family: "Open Sans";
+    /*text-align: center;*/
+    padding-bottom: 20px;
+    margin-left: 65px;
+}
+#featured {
+	font-size: 31px;
+    line-height: 50px;
+    color: #515151;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-top: 80px;
+    margin-left: 65px;
+}
+#prises {
+	width: 1300px;
+	height: 560px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.card {
+	width: 300px;
+	height: 550px;
+	background: #edf3f7;
+	border-radius: 10px;
+}
+.picture {
+	width: 300px;
+	height: 225px;
+	background-image: url(https://ds05.infourok.ru/uploads/ex/11e6/001372d5-74384220/hello_html_192bb73a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 100px solid #69f75c;
+	border-right: 100px solid transparent;
+}
+.subscribe {
+	width: 300px;
+	height: 150px; 
+}
+.download {
+	width: 300px;
+	height: 40px;
+	border-bottom: 0.3px solid #515151;
+	margin-bottom: 20px;
+}
+.ontario {
+	color: #515151;
+	text-align: left;
+	font-size: 20px;
+	font-family: "Open Sans";
+    margin-left: 20px;
+
+}
+.tower {
+	color: #515151;
+	text-align: left;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "Open Sans";
+	margin-left: 20px;
+}
+.btn {
+	width: 135px;
+	height: 35px;
+	background: #638bdb;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 145px;
+}
+progress {
+  height: 30px;
+  width: 255px;
+  margin-left: 20px;
+  color: #69f75c;
+}
+.details {
+ text-align: right;
+ margin-left: 100px;
+ margin-top: 0px; 
+ font-size: 18px;
+ float: left;
+}
+#trngl {
+	width: 0;
+	height: 0;
+	border-top: 7.5px solid transparent;
+	border-left: 14px solid #69f75c;
+	border-bottom: 7.5px solid transparent;
+	margin-top: 3px;
+	margin-right: 30px;
+	float: right;
+}/*Конец прайсез*/
+#bepart {
+	width: 1300px;
+	height: 600px;
+	margin: auto;
+    background-image: url(https://live.staticflickr.com/7266/7039151153_3ed6d429cd_b.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.beckham {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+	border-radius: 10px;
+	margin-left: 50px;
+	float: left;
+}
+#international {
+	width: 940px;
+	height: 150px;
+	margin: auto;
+	margin-top: 80px;
+}
+#part {
+    font-size: 42px;
+    color: #69f75c;
+    font-weight: 200px;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 50px;
+}
+#challenges {
+	font-size: 20px;
+    line-height: 30px;
+    color: #515151;
+    font-weight: 400px;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-bottom: 20px;
+}
+.best {
+	width: 400px;
+	height: 260px;
+}
+#feedback {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 90px;
+}
+.exell {
+	width: 400px;
+	height: 170px;
+	background: #ffffff;
+	border-radius: 10px;
+}
+.sub{
+	color: #515151;
+	line-height: 25px;
+	font-size: 16px;
+	font-family: "Open Sans";
+	text-align: center;
+	width: 320px;
+	padding: 0px 40px 20px 40px;
+}
+.green {
+	color: #69f75c;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Open Sans";
+	padding-top: 25px; 
+	margin-bottom: 0px;
+}
+.david {
+	color: #ffffff;
+	line-height: 25px;
+	font-size: 20px;
+	font-family: "Open Sans";
+	margin-left: 140px;
+	margin-top: 45px;
+}/*Конец отзывов*/
+#brands {
+	width: 1300px;
+	height: 140px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 0.3px solid #515151;
+}
+.firma {
+	width: 70px;
+	height: 70px;
+	margin-top: 35px;
+}
+#footer {
+	width: 1300px;
+	height: 65px;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+}
